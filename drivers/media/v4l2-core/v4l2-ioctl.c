@@ -1244,6 +1244,13 @@ static void v4l_fill_fmtdesc(struct v4l2_fmtdesc *fmt)
 	case V4L2_SDR_FMT_CS8:		descr = "Complex S8"; break;
 	case V4L2_SDR_FMT_CS14LE:	descr = "Complex S14LE"; break;
 	case V4L2_SDR_FMT_RU12LE:	descr = "Real U12LE"; break;
+	case V4L2_PIX_FMT_Y8I:      descr = "8-bit Greyscale L/R interleaved"; break;
+	case V4L2_PIX_FMT_Y12I:     descr = "12-bit Grey L/R interleaved"; break;
+	case V4L2_PIX_FMT_Z16:      descr = "16-bit Depth data"; break;
+	case V4L2_PIX_FMT_RW16:     descr = "16-bit Raw data"; break;
+	case V4L2_PIX_FMT_INZI:     descr = "32-bit IR:Depth 10:16"; break;
+	case V4L2_PIX_FMT_W10:      descr = "10-bit packed 8888[2222]"; break;
+
 	case V4L2_TCH_FMT_DELTA_TD16:	descr = "16-bit signed deltas"; break;
 	case V4L2_TCH_FMT_DELTA_TD08:	descr = "8-bit signed deltas"; break;
 	case V4L2_TCH_FMT_TU16:		descr = "16-bit unsigned touch data"; break;
