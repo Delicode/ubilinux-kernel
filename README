@@ -1,3 +1,7 @@
+Delicode: This fork contains a few patches from the Intel's Realsense
+repositiory, for the UVC and iio drivers.
+See https://github.com/IntelRealSense/librealsense/tree/master/scripts
+
         Linux kernel release 4.x <http://kernel.org/>
 
 These are the release notes for Linux version 4.  Read them carefully,
